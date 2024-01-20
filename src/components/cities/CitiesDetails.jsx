@@ -37,7 +37,8 @@ const CitiesDetails = () => {
           <div className='city-box-one'>
           <div>
               <img className='img-budapest' onClick={onBudapestClick}
-                 src='https://i.pinimg.com/564x/66/82/e0/6682e045ff32a662a9b54b6b94ad4844.jpg'
+                      src='https://i.pinimg.com/564x/66/82/e0/6682e045ff32a662a9b54b6b94ad4844.jpg'
+                      alt='budapest'
                   
               />
               {isBudapestOpen ? (<Popup 
@@ -52,6 +53,7 @@ const CitiesDetails = () => {
               <img className='img-paris' onClick={onParisClick}
                       //   src='https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/France/Paris/paris-vintage-car.jpg?imwidth=680'
                       src='https://i.pinimg.com/474x/f3/f2/df/f3f2dfdf4510346081483d3aed6adf0e.jpg'
+                      alt='paris'
                   
               />
                {isParisOpen? (<Popup 
@@ -67,7 +69,8 @@ const CitiesDetails = () => {
           <div className='city-box-two'>
           <div>
               <img className='img-brussels' onClick={onBrusselsClick}
-                  src='https://biovox.eu/wp-content/uploads/2020/09/belgian-flag-over-ghent.jpg'
+                      src='https://biovox.eu/wp-content/uploads/2020/09/belgian-flag-over-ghent.jpg'
+                      alt='brussels'
                   
               />
                {isBrusselsOpen ? (<Popup 
@@ -80,7 +83,8 @@ const CitiesDetails = () => {
           </div>
           <div>
               <img className='img-berlin' onClick={onBerlinClick}
-                  src='https://i.pinimg.com/564x/65/14/7b/65147bfe78410ae2ddcb684727771ed1.jpg'
+                      src='https://i.pinimg.com/564x/65/14/7b/65147bfe78410ae2ddcb684727771ed1.jpg'
+                      alt='berlin'
                    
               />
                {isBerlinOpen ? (<Popup 

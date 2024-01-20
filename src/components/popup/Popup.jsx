@@ -1,5 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+
 import "./popup.style.css"
 
 const Popup = ({info, closePopup, imgUrl1, imgUrl2, imgUrl3})=> {
@@ -9,10 +9,10 @@ const Popup = ({info, closePopup, imgUrl1, imgUrl2, imgUrl3})=> {
               <div className='popup-img-box'>
                   <div>
                       
-              <img className='popup-img1' src= {imgUrl1} />
-              <img className='popup-img2' src= {imgUrl2} />
+              <img className='popup-img1' src= {imgUrl1}  alt='image1'/>
+              <img className='popup-img2' src= {imgUrl2} alt='image2' />
                   </div>
-              <img className='popup-img3' src= {imgUrl3} />
+              <img className='popup-img3' src= {imgUrl3} alt='image3'/>
                   
               </div>
               <p className='popup-text'>{info}</p>
@@ -23,6 +23,6 @@ const Popup = ({info, closePopup, imgUrl1, imgUrl2, imgUrl3})=> {
   )
 }
 
-Popup.propTypes = {}
+
 
 export default Popup
